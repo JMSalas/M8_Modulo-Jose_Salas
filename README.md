@@ -97,8 +97,6 @@ Todas las rutas **protegidas** requieren el **JWT** en el encabezado `Authorizat
 >
 > La implementación actual solo genera y devuelve el JWT en el *Login* (`/api/users/login`). Desde una **perspectiva de buena práctica y seguridad**, esta es la aproximación **preferida**, ya que un usuario que se registra no necesariamente quiere iniciar sesión inmediatamente, y evita la sobrecarga de generar tokens en el proceso de registro.
 
-¡Claro! Regenero la sección de pruebas para el `README.md`, haciéndola más detallada y precisa, incluyendo los datos y las expectativas de respuesta.
-
 ## Pruebas Detalladas con Postman
 
 La API sigue un flujo estricto de autenticación. Las pruebas deben ejecutarse en el siguiente orden para obtener el token necesario para las rutas protegidas.
